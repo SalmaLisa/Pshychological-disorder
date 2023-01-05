@@ -1,0 +1,513 @@
+@media all and (max-width: 1600px) {
+  .container {
+    padding: 0 130px;
+  }
+  body .banner-section {
+    height: 850px;
+  }
+  .banner-section .info-container {
+    margin-top: 150px;
+  }
+  .banner-section .banner-title {
+    font-size: 80px;
+    line-height: 90px;
+  }
+  .details-section .content .agenda-container {
+    width: 380px;
+    height: 460px;
+  }
+  .details-section .content .agenda-container .agenda-list-item {
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+  .details-section .details {
+    width: 63%;
+  }
+  .item-detail .heading {
+    font-size: 50px;
+    line-height: 52px;
+  }
+  body .appointment-section {
+    height: 850px;
+  }
+}
+
+@media all and (max-width: 1440px) {
+  .container {
+    padding: 0 100px;
+  }
+  .banner-section .banner-title {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .banner-section .banner-text {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 27px;
+  }
+
+  .item-detail .heading {
+    font-size: 50px;
+    line-height: 52px;
+  }
+  .item-detail .sub-heading {
+    font-size: 35px;
+    line-height: 42px;
+  }
+  .details-section .content .agenda-container {
+    width: 340px;
+    height: 400px;
+  }
+  .details-section .content .agenda-container .agenda-list-item {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .details-section .content .share-link a {
+    font-size: 22px;
+  }
+  .details-section .content .share-link img {
+    width: 80%;
+  }
+  .details .text,
+  .FAQ-section .text {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .item-detail .heading {
+    font-size: 45px;
+    line-height: 52px;
+  }
+  .item-detail .sub-heading {
+    font-size: 26px;
+    line-height: 42px;
+  }
+  .item-detail .list-heading {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .appointment-section .appoint-banner-title {
+    font-size: 50px;
+    line-height: 52px;
+  }
+  .appointment-section .appoint-banner-para {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 20px 0;
+  }
+  .appointment-section .appoint-sec-card-container li img {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 18px;
+  }
+  .appoint-sec-card-container .appoint-card-title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .appointment-section form {
+    padding: 40px 50px;
+    height: 520px;
+  }
+  .appointment-section .input-field {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+  .appointment-section .submit-btn {
+    padding: 15px 50px;
+    margin-top: 0;
+  }
+  .FAQ-section .section-title,
+  .blog-section .section-title {
+    font-size: 50px;
+  }
+  .FAQ-section .question {
+    font-size: 25px;
+  }
+  .blog-section .card-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .blog-section .date {
+    margin-bottom: 30px;
+  }
+  .blog-card .readMore-btn {
+    margin-top: 60px;
+    margin-bottom: 15px;
+  }
+  footer .footer-block {
+    padding: 0 30px;
+  }
+  footer .block-title {
+    font-size: 16px;
+  }
+  .footer-block li {
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .banner-section nav {
+    display: none;
+  }
+  body .banner-section {
+    height: 700px;
+    margin-bottom: 150px;
+  }
+  .banner-section .info-container {
+    margin-top: 200px;
+  }
+  .details-section .content .agenda-container {
+    height: 400px;
+  }
+  .details-section .content .agenda-container .agenda-list-item {
+    font-size: 25px;
+  }
+  .details-section .details {
+    width: 60%;
+  }
+  .appointment-section .info-wrapper {
+    width: 45%;
+  }
+  .footer-block li {
+    margin-bottom: 18px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+@media all and (max-width: 1024px) {
+  body .banner-section {
+    height: 600px;
+    margin-bottom: 100px;
+  }
+  body .details-section {
+    margin-bottom: 100px;
+  }
+  body .FAQ-section {
+    padding-top: 100px;
+  }
+  body .blog-section {
+    padding: 100px 0;
+  }
+
+  .details-section .content .agenda-container {
+    width: 18rem;
+  }
+  .details-section .content .agenda-container .agenda-list-item {
+    font-size: 1.2rem;
+  }
+  .item-detail .heading {
+    font-size: 2.1rem;
+    line-height: 52px;
+  }
+  .item-detail .sub-heading {
+    font-size: 26px;
+    line-height: 42px;
+  }
+  .item-detail .list-heading {
+    font-size: 23px;
+    line-height: 40px;
+  }
+  .appointment-section .appoint-banner-title {
+    font-size: 38px;
+    line-height: 52px;
+  }
+  .appointment-section li {
+    padding: 0 15px;
+  }
+  .appointment-section .info-wrapper {
+    width: 48%;
+  }
+  .appointment-section form {
+    width: 100%;
+  }
+}
+@media all and (max-width: 991px) {
+  .container {
+    padding: 0 70px;
+  }
+  body .banner-section {
+    height: 580px;
+  }
+  .banner-section .info-container {
+    width: 80%;
+    margin-top: 150px;
+  }
+  .details-section .content .agenda-container {
+    width: 280px;
+    height: 350px;
+    padding: 40px 30px;
+  }
+  .details-section .content .agenda-container .agenda-list-item {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .details-section .share-link a {
+    font-size: 15px;
+  }
+  .details-section .details {
+    width: 59%;
+  }
+  .item-detail .item-icon {
+    width: 90px;
+    height: 70px;
+    margin-right: 25px;
+  }
+  .item-detail .heading {
+    font-size: 36px;
+    line-height: 52px;
+  }
+  .item-detail .sub-heading {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .item-detail .list-heading {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .details .text,
+  .FAQ-section .text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  body .appointment-section {
+    height: 600px;
+  }
+  .appointment-section .appoint-card-title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .appointment-section form {
+    padding: 30px;
+    height: 490px;
+  }
+  .appointment-section form .input-field:nth-child(1) {
+    margin-top: 10px;
+  }
+  .appointment-section form .submit-btn {
+    font-size: 16px;
+  }
+  footer .footer-block {
+    padding: 2rem 1rem;
+    border: none;
+  }
+  footer .content-wrapper {
+    flex-wrap: wrap;
+  }
+  footer .copyright-sec {
+    flex-direction: column;
+  }
+  footer .social-links {
+    margin: 15px 0;
+  }
+  footer .copyright-sec {
+    margin-top: 0;
+  }
+}
+@media all and (max-width: 767px) {
+  .details-section .content.flex-box {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .details-section .sticky-part {
+    height: 400px;
+    position: static;
+    top: 0;
+  }
+
+  .details-section .share-link a {
+    font-size: 18px;
+  }
+  .details-section .content .agenda-container {
+    width: 100%;
+    height: 300px;
+    padding: 40px 30px;
+    justify-content: center;
+    text-align: center;
+  }
+  .details-section .details {
+    width: 100%;
+  }
+  .details-section .details .heading br {
+    display: none;
+  }
+  .details-section .agenda-details .item-detail {
+    padding: 50px 0;
+  }
+  body .appointment-section {
+    height: 920px;
+  }
+  .appointment-section .container.flex-box {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .appointment-section .info-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+
+  .appointment-section .appoint-banner-title br {
+    display: none;
+  }
+  .appointment-section .appoint-sec-card-container {
+    justify-content: center;
+  }
+
+  .appointment-section .form-container {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .FAQ-section .section-title,
+  .blog-section .section-title {
+    font-size: 45px;
+  }
+  .FAQ-section .question {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .FAQ-section.section-padding {
+    padding: 40px 0;
+  }
+  .blog-section .section-title {
+    margin-bottom: 0;
+  }
+
+  .blog-section .blog-card-container {
+    margin: 0px;
+  }
+
+  .blog-card .readMore-btn {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  footer .footer-block a {
+    font-size: 12px;
+  }
+  footer .copyright-sec a {
+    font-size: 11px;
+  }
+}
+@media all and (max-width: 479px) {
+  .container {
+    padding: 0 20px;
+  }
+  body .banner-section {
+    height: 400px;
+    margin-bottom: 80px;
+  }
+  body .blog-section {
+    padding: 80px 0;
+  }
+  .banner-section .info-container {
+    width: 100%;
+    margin-top: 70px;
+  }
+  .banner-section .banner-title {
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .banner-text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+  }
+
+  /* details section */
+
+  body .details-section {
+    margin: 50px 0;
+  }
+
+  .details-section .text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .details-section .item-detail .item-icon {
+    width: 60px;
+    margin-right: 20px;
+  }
+  .details-section .item-detail .header {
+    margin-bottom: 0;
+  }
+  .item-detail .heading {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .details-section .sub-heading {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+  .details-section .list-heading {
+    font-size: 17px;
+  }
+  /* appointment-section */
+
+  .appointment-section .appoint-banner-title {
+    font-size: 29px;
+    line-height: 35px;
+  }
+  .appointment-section .appoint-banner-para {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .appointment-section .appoint-sec-card-container {
+    margin-top: 30px;
+  }
+
+  /* FAQ section */
+
+  .FAQ-section .section-title,
+  .blog-section .section-title {
+    font-size: 33px;
+    line-height: 40px;
+  }
+  .FAQ-section .section-header,
+  .blog-section .section-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .FAQ-section .question-block {
+    margin: 30px 0;
+  }
+
+  /* footer */
+
+  footer .footer-block {
+    padding: 2rem 1rem;
+    border: none;
+  }
+}
+@media all and (max-width: 320px) {
+  body .banner-section {
+    height: 380px;
+  }
+  .banner-section .info-container {
+    margin-top: 30px;
+  }
+  .banner-section .banner-title {
+    font-size: 33px;
+    line-height: 40px;
+  }
+  .banner-text {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 12px;
+  }
+  .details-section .item-detail .item-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .FAQ-section .text {
+    text-align: justify;
+  }
+}
