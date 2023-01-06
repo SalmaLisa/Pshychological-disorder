@@ -196,9 +196,18 @@ a {
 .flex-box {
   display: flex;
 }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .grid-col-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+.grid-col-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .container {
@@ -340,7 +349,7 @@ nav {
   margin-top: 100px;
   margin-bottom: 180px;
 }
-.sticky-part{
+.sticky-part {
   position: sticky;
   top: 40px;
   height: 600px;
@@ -380,10 +389,10 @@ nav {
   bottom: -10px;
   left: 0;
 }
-.details-section .share-link{
+.details-section .share-link {
   margin-top: 39px;
 }
-.details-section .share-link a{
+.details-section .share-link a {
   font-size: 31px;
   line-height: 22px;
   font-weight: 600;
@@ -411,13 +420,13 @@ nav {
 .h-color {
   color: #222222;
 }
-.item-icon img{
+.item-icon img {
   width: 100%;
 }
 .item-detail li {
   text-align: justify;
 }
-.item-detail .item-header{
+.item-detail .item-header {
   margin-bottom: 50px;
 }
 .item-icon {
@@ -428,7 +437,7 @@ nav {
 
 .heading {
   font-size: 60px;
-  line-height: 62px;
+  line-height: 70px;
   font-weight: 600;
 }
 .text {
@@ -437,7 +446,7 @@ nav {
   line-height: 35px;
 }
 .sub-heading {
-  font-size:42px;
+  font-size: 42px;
   line-height: 53px;
   margin-top: 30px;
   font-weight: 600;
@@ -489,7 +498,7 @@ nav {
   height: 45px;
   margin-bottom: 38px;
 }
-.appoint-card-title{
+.appoint-card-title {
   font-size: 24px;
   line-height: 28px;
 }
@@ -522,7 +531,7 @@ form {
   background: transparent;
   border: none;
   width: 100%;
-  padding: 10px; 
+  padding: 10px;
 }
 .submit-btn {
   background-color: #954c9d;
@@ -535,8 +544,8 @@ form {
 
 /* FAQ-section */
 .FAQ-section {
-  background-color: #eefaff; 
- padding-top: 150px;
+  background-color: #eefaff;
+  padding-top: 150px;
 }
 .section-header {
   margin-bottom: 40px;
@@ -549,9 +558,9 @@ form {
 }
 .section-title {
   font-size: 60px;
-  line-height:62px;
+  line-height: 62px;
   font-weight: 700;
-  margin-bottom:40px;
+  margin-bottom: 40px;
 }
 .question {
   margin-bottom: 15px;
@@ -560,7 +569,7 @@ form {
   line-height: 25px;
 }
 /* blog-section */
-.blog-section{
+.blog-section {
   padding: 130px 0;
 }
 .blog-section img {
@@ -570,11 +579,11 @@ form {
   display: flex;
 }
 .blog-card {
-  padding-right:3rem;
+  padding-right: 3rem;
   box-shadow: 0px 20px 60px rgba(98, 58, 102, 0.1);
   border-radius: 20px;
 }
-.blog-card img{
+.blog-card img {
   width: 100%;
 }
 .card-title {
@@ -594,7 +603,7 @@ form {
   line-height: 30px;
 }
 .readMore-btn {
-  margin-top:80px;
+  margin-top: 80px;
   margin-bottom: 20px;
   font-weight: 700;
   color: #954c9d;
@@ -623,13 +632,13 @@ footer li {
 footer a {
   color: #ffffff;
 }
-.footer-block{
+.footer-block {
   padding: 0 50px;
 }
-.footer-block:first-child{
+.footer-block:first-child {
   padding-left: 0;
 }
-.footer-block:last-child{
+.footer-block:last-child {
   padding-right: 0;
 }
 .block-title {
@@ -654,47 +663,323 @@ footer a {
 }
 
 /* ============================== Homepage ================================ */
-body .home-banner{
+body .home-banner {
   background: url(../images/h-banner.png) no-repeat center;
   position: relative;
 }
-.home-banner .home-banner-title{
+.home-banner .home-banner-title {
   line-height: 90px;
 }
-.home-banner.home-banner-text{
+.home-banner.home-banner-text {
   width: 70%;
   margin: 18px 0;
 }
-.home-banner .explore-btn{
+.home-banner .explore-btn {
   background-color: #ffffffff;
   width: 215px;
   height: 65px;
   border-radius: 55px;
   margin-top: 50px;
 }
-.home-banner .explore-btn button{
+.home-banner .explore-btn button {
   margin-right: 50px;
   background-color: #fff;
   font-size: 22px;
   font-weight: 600;
-  
 }
-.home-banner .info-container{
+.home-banner .info-container {
   margin-top: 130px;
 }
-.home-banner .transform-text{
+.home-banner .transform-text {
   width: 300px;
   font-size: 45px;
   font-weight: 700;
 }
-.home-banner .assessment,.home-banner .team{
+.home-banner .assessment,
+.home-banner .team {
   position: absolute;
   bottom: 222px;
   transform: rotate(-90deg);
 }
-.home-banner .assessment{
-  right:735px;
+.home-banner .assessment {
+  right: 735px;
 }
-.home-banner .team{
-  right:240px;
+.home-banner .team {
+  right: 240px;
+}
+/* ------------------- */
+.pink-bg {
+  background-color: #fff7ea;
+}
+.sky-bg {
+  background-color: #ecf9ff;
+}
+.card-shape {
+  border-radius: 0px 25px 25px 25px;
+}
+body .different-assessment-section {
+  margin-bottom: 180px;
+}
+.different-assessment-section .ass-top-section {
+  margin-left: 1rem;
+}
+.different-assessment-section .ass-bottom-section {
+  margin-left: 1rem;
+}
+.different-assessment-section .ass-info-container {
+  width: 50%;
+  margin-right: 45px;
+}
+.different-assessment-section .asses-para {
+  margin-top: 25px;
+}
+.different-assessment-section .diff-asses-card {
+  padding: 55px 30px 60px;
+  margin-right: 25px;
+}
+
+.different-assessment-section .ass-card-container:before {
+  display: block;
+  content: url(../images/dot-arrow.png);
+}
+.diff-asses-card .ass-card-title {
+  margin-top: 38px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.ass-cards-container .ellipse-container {
+  height: 430px;
+  margin-left: -30px;
+}
+.ass-bottom-section .sec-sub-title {
+  margin-bottom: 36px;
+}
+.ass-bottom-section .list-card-container {
+  flex-wrap: wrap;
+}
+.ass-bottom-section .ass-list-card {
+  padding: 40px;
+  border-radius: 25px;
+  margin-right: 26px;
+  margin-bottom: 29px;
+  box-shadow: 0px 20px 50px #0000001a;
+  border: 1.5px solid #e7e7e7;
+}
+.ass-bottom-section .ass-list-card .list-card-title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+/* ------------ meet doctor section---------------- */
+
+body .meet-doc-section {
+  background: url(../images/pshycho-bg.png) no-repeat center;
+  background-size: contain;
+  height: 1100px;
+}
+.meet-doc-section .container {
+  height: 750px;
+}
+.meet-doc-section .doc-schedule-container {
+  position: relative;
+  height: 100%;
+  margin-right: 100px;
+}
+.meet-doc-section .schedule-box {
+  width: 325px;
+  padding: 95px 40px 90px;
+  box-shadow: 0px 20px 60px #623a6626;
+  border-radius: 30px;
+  background-color: #fff;
+}
+.meet-doc-section .before-tick {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.meet-doc-section .before-tick::before {
+  content: url(../images/white-tick.png);
+  display: block;
+  position: relative;
+  top: 35px;
+  left: -50px;
+  padding-left: 7px;
+  z-index: 1;
+}
+.meet-doc-section .schedule-box .box-title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 59px;
+}
+.meet-doc-section .schedule-box .schedule {
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+.meet-doc-section .schedule-box .time {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.meet-doc-section .schedule-box .days {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #575988;
+}
+.meet-doc-section .schedule-box .detail-btn {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  width: 96px;
+  height: 40px;
+  background: #edeef8;
+  border-radius: 19.3588px;
+}
+/* ----------- */
+.meet-doc-section .doc-info-container {
+  color: #fff;
+}
+.doc-info-container .small-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 25px;
+}
+.doc-info-container .sub-title {
+  margin-top: 12px;
+}
+.doc-info-container .para {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 35px;
+  margin: 43px 0;
+  width: 70%;
+}
+.doc-info-container .tick-list .tick-list-text {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 45px;
+  margin-left: 19px;
+}
+.doc-info-container .booking-btn {
+  width: 287px;
+  height: 73px;
+  margin-top: 35px;
+  font-size: 22px;
+  line-height: 22px;
+  color: #954c9d;
+}
+
+/* health-issues-section */
+body .health-issues-section {
+  margin: 145px 0;
+}
+.health-issues-section .appointment-btn {
+  width: 287px;
+  height: 73px;
+  background: #954c9d;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  color: #fff;
+}
+.health-issues-section .issue-card-container {
+  margin-top: 60px;
+}
+.health-issues-section .health-issue-card {
+  padding: 50px 45px;
+  box-shadow: 0px 20px 60px #623a661a;
+  border-radius: 30px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.health-issue-card .card-img-container {
+  width: 70px;
+  height: 63px;
+}
+.health-issue-card .card-img-container img {
+  width: 100%;
+}
+.health-issue-card .issue-card-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  margin-top: 35px;
+}
+.health-issue-card .issue-card-para {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  color: #696969;
+}
+.diff-health-issue-cards {
+  position: relative;
+}
+.diff-health-issue-cards .ellipse-container {
+  position: absolute;
+  right: -32px;
+  height: 100%;
+}
+/* training-section */
+body .training-section {
+  height: 970px;
+}
+.training-section .training-info-container {
+  background: url(../images/pink-bg.png) no-repeat top;
+  background-size: contain;
+  width: 60%;
+  padding: 198px 0 0 270px;
+  z-index: 1;
+}
+.training-section .training-info-container .text {
+  margin-top: 10px;
+}
+.training-section .img-container {
+  width: 40%;
+}
+.training-section .img-container img {
+  width: 100%;
+}
+.training-section .training-card-container {
+  width: 1155px;
+  padding: 53px 60px;
+  background-color: #fff;
+  box-shadow: 0px 20px 60px #623a661a;
+  border-radius: 20px;
+  margin-top: 65px;
+  margin-bottom: 60px;
+}
+.training-section .training-card {
+  width: 24%;
+}
+.training-section .training-card-img {
+  width: 50px;
+  height: 49px;
+}
+.training-section .training-card-img img {
+  width: 100%;
+}
+.training-section .train-card-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 20px 0;
+}
+.training-section .train-card-para {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #696969;
+}
+.training-section .apply-btn {
+  width: 203px;
+  height: 73px;
+  background: #954c9d;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  color: #fff;
 }

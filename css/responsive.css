@@ -292,6 +292,9 @@
   .appointment-section form .submit-btn {
     font-size: 16px;
   }
+  .blog-card {
+    padding: 0 3rem;
+  }
   footer .footer-block {
     padding: 2rem 1rem;
     border: none;
@@ -392,12 +395,12 @@
     font-size: 11px;
   }
 }
-@media all and (max-width: 479px) {
+@media all and (max-width: 480px) {
   .container {
     padding: 0 20px;
   }
   body .banner-section {
-    height: 400px;
+    height: 450px;
     margin-bottom: 80px;
   }
   body .blog-section {
@@ -405,7 +408,7 @@
   }
   .banner-section .info-container {
     width: 100%;
-    margin-top: 70px;
+    margin-top: 100px;
   }
   .banner-section .banner-title {
     font-size: 38px;
