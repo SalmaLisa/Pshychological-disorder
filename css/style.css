@@ -657,7 +657,6 @@ footer a {
 }
 .social-link {
   width: 22px;
-  background-color: #ffffff;
   border-radius: 7px;
   margin-right: 20px;
 }
@@ -713,6 +712,9 @@ body .home-banner {
 }
 .sky-bg {
   background-color: #ecf9ff;
+}
+.violet-bg {
+  background-color: #954C9D;
 }
 .card-shape {
   border-radius: 0px 25px 25px 25px;
@@ -942,6 +944,7 @@ body .training-section {
 }
 .training-section .img-container img {
   width: 100%;
+  height: 970px;
 }
 .training-section .training-card-container {
   width: 1155px;
@@ -983,3 +986,69 @@ body .training-section {
   line-height: 22px;
   color: #fff;
 }
+/* arc-section */
+.arc-section .contain {
+  padding: 180px 320px;
+}
+.arc-section .section-para {
+  margin: 32px auto;
+}
+.arc-section .arc-card {
+  padding: 64px 74px;
+  margin: 49px 25px;
+  border-radius: 0px 40px 40px 40px;
+}
+.arc-section .arc-card-img {
+  width: 55px;
+  height: 70px;
+  margin: 0 auto 61px;
+}
+.arc-section .arc-card-img img {
+  width: 100%;
+}
+.arc-section .arc-card-title {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #071a48;
+}
+.arc-section .arc-card-para {
+  font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #6B7591;
+}
+.arc-section .arc-card:last-child .arc-card-para {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  color: #E2DBDB;
+  margin-bottom: 50px;
+}
+.arc-section .arc-card:last-child .arc-card-title {
+  color: #fff;
+}
+
+/* team-section */
+body .team-section {
+  background: url(../images/team-bg.png) no-repeat center;
+  background-size: contain;
+  height: 1200px;
+}
+.team-section .info-container{
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.team-section .info-container .text{
+  margin-top: 10px;
+}
+.team-section .meet-btn{
+  width: 258px;
+height: 73px;
+font-weight: 600;
+font-size: 22px;
+line-height: 22px;
+color: #ffffff;
+margin-top: 90px;
+}
+
