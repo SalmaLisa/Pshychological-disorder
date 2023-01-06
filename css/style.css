@@ -512,7 +512,7 @@ nav {
 .border-e-1 {
   border-right: 1px solid rgb(217, 217, 217, 0.6);
 }
-form {
+.appointment-section form {
   background: linear-gradient(180deg, #f3f3f34d 0%, #f3f3f31a 100%);
   backdrop-filter: blur(10px);
   border-radius: 30px;
@@ -520,7 +520,7 @@ form {
   padding: 70px 60px;
   height: 690px;
 }
-.input-field {
+.appointment-section .input-field {
   margin-top: 30px;
   margin-bottom: 70px;
   border-bottom: 1px solid rgb(255, 255, 255, 0.4);
@@ -534,7 +534,6 @@ form {
   padding: 10px;
 }
 .submit-btn {
-  background-color: #954c9d;
   border-radius: 20px;
   color: #ffffff;
   font-size: 22px;
@@ -605,7 +604,6 @@ form {
   margin-bottom: 65px;
 }
 
-
 .readMore-btn {
   position: absolute;
   bottom: 40px;
@@ -673,7 +671,7 @@ body .home-banner {
 .home-banner .home-banner-title {
   line-height: 90px;
 }
-.home-banner.home-banner-text {
+.home-banner .home-banner-text {
   width: 70%;
   margin: 18px 0;
 }
@@ -718,7 +716,7 @@ body .home-banner {
   background-color: #ecf9ff;
 }
 .violet-bg {
-  background-color: #954C9D;
+  background-color: #954c9d;
 }
 .card-shape {
   border-radius: 0px 25px 25px 25px;
@@ -885,7 +883,6 @@ body .health-issues-section {
 .health-issues-section .appointment-btn {
   width: 287px;
   height: 73px;
-  background: #954c9d;
   border-radius: 20px;
   font-weight: 600;
   font-size: 22px;
@@ -984,7 +981,6 @@ body .training-section {
 .training-section .apply-btn {
   width: 203px;
   height: 73px;
-  background: #954c9d;
   font-weight: 600;
   font-size: 22px;
   line-height: 22px;
@@ -1018,15 +1014,15 @@ body .training-section {
 }
 .arc-section .arc-card-para {
   font-weight: 500;
-font-size: 18px;
-line-height: 30px;
-color: #6B7591;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6b7591;
 }
 .arc-section .arc-card:last-child .arc-card-para {
   font-weight: 400;
   font-size: 22px;
   line-height: 35px;
-  color: #E2DBDB;
+  color: #e2dbdb;
   margin-bottom: 50px;
 }
 .arc-section .arc-card:last-child .arc-card-title {
@@ -1039,47 +1035,46 @@ body .team-section {
   background-size: contain;
   height: 1200px;
 }
-.team-section .info-container{
+.team-section .info-container {
   margin-top: 150px;
   margin-left: 50px;
 }
-.team-section .info-container .text{
+.team-section .info-container .text {
   margin-top: 10px;
 }
-.team-section .meet-btn{
+.team-section .meet-btn {
   width: 258px;
-height: 73px;
-font-weight: 600;
-font-size: 22px;
-line-height: 22px;
-color: #ffffff;
-margin-top: 90px;
+  height: 73px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-top: 90px;
 }
 
 /* home-blog-section */
-.home-blog-section .container{
+.home-blog-section .container {
   padding: 170px 35px;
 }
-.home-blog-section .section-header{
+.home-blog-section .section-header {
   margin-bottom: 50px;
 }
-.home-blog-section .blog-card{
+.home-blog-section .blog-card {
   width: 33.33%;
   margin-right: 38px;
   padding-right: 0;
 }
-.home-blog-section .img-container{
+.home-blog-section .img-container {
   height: 300px;
 }
-.home-blog-section .img-container img{
+.home-blog-section .img-container img {
   width: 100%;
   height: 100%;
 }
-.home-blog-section .info{
+.home-blog-section .info {
   padding: 35px 40px;
-  
 }
-.home-blog-section .info-card{
+.home-blog-section .info-card {
   box-shadow: 0px 20px 60px #623a661a;
   border-radius: 20px;
   position: relative;
@@ -1093,31 +1088,94 @@ margin-top: 90px;
   display: inline-block;
   font-size: 18px;
 }
-.home-blog-section .card-margin{
+.home-blog-section .card-margin {
   margin-bottom: 44px;
 }
-.home-blog-section .blog-card:nth-child(even){
-box-shadow: none;
+.home-blog-section .blog-card:nth-child(even) {
+  box-shadow: none;
 }
 
 /* need-help-section */
 body .need-help-section {
   height: 1060px;
 }
-.need-help-section .info-sec{
+.need-help-section .info-sec {
   background: url(../images/need-help-bg.png) no-repeat center;
   height: 1060px;
   width: 50%;
-  
+  padding-left: 130px;
+  padding-top: 400px;
 }
-.need-help-section .info-sec .heading, .need-help-section .info-sec .text , .need-help-section .info-sec .tick-list-text{
+.need-help-section .info-sec .heading,
+.need-help-section .info-sec .text,
+.need-help-section .info-sec .tick-list-text {
   color: #ffffff;
 }
-.need-help-section .info-sec .heading {
-  color: #ffffff;
+.need-help-section .info-sec .tick-list {
+  margin: 32px 0;
 }
-.need-help-section .form-sec{
+.need-help-section .info-sec .tick-list-text {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 45px;
+  margin-left: 18px;
+}
+.need-help-section .info-sec .text {
+  margin: 10px 0;
+}
+.need-help-section .info-sec .login-btn {
+  width: 287px;
+  height: 73px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  color: #fff;
+  margin-top: 33px;
+}
+.need-help-section .form-sec {
   width: 50%;
+  position: relative;
+}
+.need-help-section .form-sec .heading {
+  color: #ffffff;
+  margin-bottom: 85px;
+}
+.need-help-section .form-sec form {
+  width: 100%;
+  z-index: 1;
+  padding: 160px 130px;
 }
 
+.need-help-section .input-field {
+  margin-top: 30px;
+  margin-bottom: 53px;
+  border-bottom: 1px solid #ffffff;
+  font-size: 18px;
+  line-height: 12px;
+  color: #ffffff;
+}
+.need-help-section .input-field.message {
+  padding-bottom: 50px;
+  margin-bottom: 70px;
+}
 
+.need-help-section .input-field input {
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+.need-help-section .submit-btn {
+  width: 203px;
+  height: 73px;
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #954c9d;
+  background-color: #ffffff;
+}
+.need-help-section .form-sec .bg-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
