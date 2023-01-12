@@ -437,6 +437,9 @@
     width: 90%;
     margin: 30px auto;
   }
+  .home-banner .btn-container {
+    justify-content: center;
+  }
   .home-banner .explore-button {
     padding: 15px 27px;
   }
