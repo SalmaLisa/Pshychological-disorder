@@ -2,9 +2,6 @@
   .container {
     padding: 0 130px;
   }
-  body .banner-section {
-    height: 850px;
-  }
   .banner-section .info-container {
     margin-top: 150px;
   }
@@ -29,8 +26,50 @@
     font-size: 50px;
     line-height: 52px;
   }
-  body .appointment-section {
-    height: 850px;
+  /* ------- home page --------- */
+  .banner-section.home-banner .transform-text {
+    font-size: 35px;
+  }
+  .home-banner .banner-right h4:nth-child(2) {
+    margin-right: -50px;
+  }
+  .assessment-section .header-cards .ellipse-container {
+    height: 350px;
+  }
+  .header-cards .ellipse-container img {
+    width: 80%;
+  }
+  .meet-doc-section .container {
+    padding: 0;
+  }
+  .health-issues-section .health-issue-card {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .arc-section .contain {
+    padding: 180px 175px;
+  }
+  .team-section .info-container {
+    width: 40%;
+  }
+  .team-section .img-container {
+    width: 60%;
+  }
+  .team-section .img-container img {
+    width: 100%;
+  }
+  .home-blog-section .container {
+    padding: 170px 90px;
+  }
+  .home-blog-section .blog-card .info .card-title {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  body .need-help-section::before {
+    width: 50%;
+  }
+  .training-section .training-info-container {
+    width: 55%;
   }
 }
 
@@ -148,6 +187,74 @@
     font-size: 18px;
     line-height: 25px;
   }
+
+  /* ---home page--- */
+  h2 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  body .home-banner {
+    background-size: 100% 100%;
+    padding-bottom: 90px;
+  }
+  .home-banner .banner-left {
+    margin-top: 150px;
+  }
+  .home-banner .h-banner-title {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .home-banner .banner-right h4 {
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
+
+  .home-banner .banner-right h4:nth-child(1) {
+    margin-left: -20px;
+  }
+  .home-banner .banner-right h4:nth-child(2) {
+    margin-right: 60px;
+  }
+
+  .ass-bottom-section .ass-list-card .list-card-title {
+    font-size: 28px;
+  }
+
+  .training-section .training-info-container {
+    padding: 198px 0 0 40px;
+  }
+  .arc-section .container {
+    padding: 150px 100px;
+  }
+  .need-help-section .form-sec form {
+    padding: 160px 0 160px 130px;
+  }
+}
+@media all and (max-width: 1360px) {
+  /* home page */
+  .training-section::after {
+    width: 45%;
+    background-size: contain;
+  }
+  .home-blog-section .blog-card {
+    margin-right: 16px;
+  }
+  .home-blog-section .card-margin {
+    margin-bottom: 35px;
+  }
+  .team-section .info-container .text {
+    width: 85%;
+  }
+  .ass-cards-container .ellipse-container {
+    margin-right: -70px;
+  }
+  .ass-bottom-section .ass-list-card {
+    margin-right: 22px;
+    margin-bottom: 22px;
+  }
+  .diff-health-issue-cards .ellipse-container {
+    right: -78px;
+  }
 }
 
 @media all and (max-width: 1280px) {
@@ -155,7 +262,6 @@
     display: none;
   }
   body .banner-section {
-    height: 700px;
     margin-bottom: 150px;
   }
   .banner-section .info-container {
@@ -178,10 +284,87 @@
     font-size: 15px;
     line-height: 20px;
   }
+  /* home-page */
+  body .home-banner {
+    padding-bottom: 120px;
+  }
+  .home-banner .banner-left {
+    width: 70%;
+  }
+  .home-banner .banner-right h4:nth-child(1) {
+    margin-left: -100px;
+  }
+
+  .different-assessment-section .ass-top-section {
+    flex-direction: column;
+  }
+  .different-assessment-section .ass-info-container {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+  .ass-bottom-section .sec-sub-title {
+    text-align: center;
+  }
+
+  .ass-bottom-section .list-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .ass-bottom-section .ass-list-card .list-card-title br {
+    display: none;
+  }
+  .diff-health-issue-cards .ellipse-container img {
+    width: 60px;
+  }
+  .training-section {
+    padding-bottom: 105px;
+  }
+  .training-section .training-card-container {
+    width: 1030px;
+  }
+  .training-section .training-card {
+    width: 28%;
+  }
+  .blog-card-container {
+    flex-direction: column;
+  }
+  .home-blog-section .blog-card {
+    width: 100%;
+    margin-bottom: 35px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .arc-section .container {
+    padding: 100px;
+  }
+  .arc-section .arc-card {
+    padding: 64px 30px;
+  }
+  .need-help-section .info-sec {
+    margin-top: 280px;
+  }
+  body .meet-doc-section {
+    padding: 150px 0;
+  }
+  .need-help-section .form-sec form {
+    padding: 115px 0 115px 103px;
+  }
+  .meet-doc-section .doc-schedule-container img {
+    width: 100%;
+  }
+  .meet-doc-section .before-tick {
+    top: 185px;
+    right: -33px;
+  }
+  .health-issues-section .issue-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .training-section .training-info-container {
+    padding: 150px 0 0 40px;
+  }
 }
 @media all and (max-width: 1024px) {
   body .banner-section {
-    height: 600px;
     margin-bottom: 100px;
   }
   body .details-section {
@@ -192,6 +375,10 @@
   }
   body .blog-section {
     padding: 100px 0;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 60px;
   }
 
   .details-section .content .agenda-container {
@@ -225,14 +412,144 @@
   .appointment-section form {
     width: 100%;
   }
+  .appointment-section form .input-field {
+    margin-bottom: 50px;
+  }
+  /* home-page */
+  .container {
+    padding: 0 80px;
+  }
+  .home-banner .banner-left {
+    width: 100%;
+    text-align: center;
+    margin-top: 85px;
+  }
+  .home-banner .banner-right {
+    display: none;
+  }
+  .home-banner .h-banner-title {
+    font-size: 70px;
+  }
+  .home-banner .h-banner-title br {
+    display: none;
+  }
+  .home-banner .h-banner-para {
+    width: 90%;
+    margin: 30px auto;
+  }
+  .home-banner .explore-button {
+    padding: 15px 27px;
+  }
+  .ass-bottom-section .ass-list-card .list-card-title {
+    font-size: 25px;
+  }
+  .meet-doc-section .container {
+    padding: 0 100px;
+  }
+  .meet-doc-section .content {
+    flex-direction: column;
+  }
+  .meet-doc-section .doc-schedule-container {
+    width: 100%;
+  }
+
+  .meet-doc-section .doc-schedule-container .image-container {
+    width: 500px;
+  }
+  .meet-doc-section .before-tick {
+    top: -40px;
+    right: 10px;
+  }
+  .meet-doc-section .doc-info-container {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .meet-doc-section .doc-info-container .small-text {
+    display: none;
+  }
+  .doc-info-container .heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .doc-info-container .sub-title {
+    font-size: 30px;
+    margin-top: 0;
+  }
+  .doc-info-container .para {
+    width: 90%;
+  }
+  .training-section::after {
+    display: none;
+  }
+  .training-section .training-info-container {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0 0 0;
+  }
+  .training-section .training-card-container {
+    width: 100%;
+    padding: 40px;
+    text-align: left;
+  }
+  .training-section .training-card {
+    width: 30%;
+  }
+  .training-section .train-card-title {
+    line-height: 28px;
+  }
+  .arc-section .container {
+    padding-top: 50px;
+  }
+  .arc-section .arc-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .arc-section .arc-card {
+    margin-bottom: 0;
+  }
+  .arc-section .arc-card-img {
+    margin-bottom: 28px;
+  }
+  .team-section .info-container {
+    margin-top: 30px;
+  }
+  .team-section .meet-btn {
+    padding: 20px 27px;
+    margin-top: 30px;
+  }
+  .home-blog-section .container {
+    padding: 120px 90px;
+  }
+  .home-blog-section .blog-card .img-container {
+    width: 100%;
+    height: auto;
+  }
+  .need-help-section .info-sec .text {
+    width: 90%;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .need-help-section .info-sec .tick-list img {
+    width: 20px;
+  }
+  .need-help-section .info-sec .tick-list-text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .need-help-section .info-sec .login-btn {
+    padding: 20px 27px;
+  }
+  .need-help-section .form-sec form {
+    padding: 80px 0 80px 70px;
+  }
+  .need-help-section .submit-btn {
+    padding: 20px 47px;
+  }
 }
 @media all and (max-width: 991px) {
   .container {
     padding: 0 70px;
   }
-  body .banner-section {
-    height: 580px;
-  }
+
   .banner-section .info-container {
     width: 80%;
     margin-top: 150px;
@@ -274,9 +591,7 @@
     font-size: 18px;
     line-height: 30px;
   }
-  body .appointment-section {
-    height: 600px;
-  }
+
   .appointment-section .appoint-card-title {
     font-size: 16px;
     line-height: 20px;
@@ -292,9 +607,7 @@
   .appointment-section form .submit-btn {
     font-size: 16px;
   }
-  .blog-card {
-    margin: 0 3rem;
-  }
+
   footer .footer-block {
     padding: 2rem 1rem;
     border: none;
@@ -311,8 +624,36 @@
   footer .copyright-sec {
     margin-top: 0;
   }
+
+  /* home-page */
+  body .different-assessment-section {
+    margin-bottom: 100px;
+  }
+  .meet-doc-section .before-tick {
+    right: -22px;
+  }
+  body .health-issues-section {
+    margin: 100px 0;
+  }
 }
 @media all and (max-width: 767px) {
+  h2 {
+    font-size: 33px;
+    line-height: 50px;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .text {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 15px auto;
+  }
+  .header-small-text {
+    font-size: 14px;
+    line-height: 11px;
+  }
   .details-section .content.flex-box {
     flex-direction: column;
     row-gap: 40px;
@@ -342,9 +683,7 @@
   .details-section .agenda-details .item-detail {
     padding: 50px 0;
   }
-  body .appointment-section {
-    height: 920px;
-  }
+
   .appointment-section .container.flex-box {
     flex-direction: column;
     align-items: stretch;
@@ -394,13 +733,269 @@
   footer .copyright-sec a {
     font-size: 11px;
   }
+  /* home-page */
+  body .home-banner {
+    padding-bottom: 80px;
+  }
+  .home-banner .h-banner-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .home-banner .h-banner-para {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 12px auto;
+  }
+  .home-banner .explore-button {
+    padding: 13px 25px;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  .home-banner .explore-button img {
+    width: 20px;
+  }
+  .different-assessment-section .asses-para {
+    margin-top: 0;
+  }
+  .diff-asses-card .ass-card-title {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .ass-cards-container .ellipse-container {
+    height: 320px;
+  }
+  .ass-cards-container .ellipse-container img {
+    width: 50px;
+  }
+  .ass-bottom-section .ass-list-card {
+    padding: 25px;
+  }
+  .ass-bottom-section .ass-list-card img {
+    width: 30px;
+  }
+  .ass-bottom-section .ass-list-card .list-card-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .meet-doc-section .doc-schedule-container .image-container {
+    width: 300px;
+  }
+  .meet-doc-section .schedule-box {
+    width: 230px;
+    padding: 50px 20px;
+  }
+  .meet-doc-section .before-tick {
+    top: 3px;
+    right: -3px;
+  }
+  .meet-doc-section .schedule-box .box-title {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .meet-doc-section .before-tick::before {
+    display: none;
+  }
+  .meet-doc-section .schedule-box .time {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .meet-doc-section .schedule-box .detail-btn {
+    padding: 8px 15px;
+  }
+  .doc-info-container .heading {
+    font-size: 38px;
+    line-height: 54px;
+  }
+  .doc-info-container .para {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 18px 0;
+  }
+  .doc-info-container .tick-list .tick-list-text {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .doc-info-container .tick-list img {
+    width: 18px;
+  }
+  .doc-info-container .booking-btn {
+    padding: 20px 47px;
+    font-size: 18px;
+  }
+  .health-issues-section .appointment-btn {
+    padding: 15px 27px;
+    font-size: 16px;
+  }
+  .health-issues-section .issue-card-container {
+    grid-template-columns: 1fr;
+  }
+  .health-issues-section .health-issue-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .health-issues-section .issue-card-container .card-info {
+    margin-left: 40px;
+  }
+  .health-issue-card .issue-card-title {
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 33px;
+  }
+  .health-issue-card .issue-card-para {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  body .health-issues-section {
+    margin: 70px 0;
+  }
+
+  .diff-health-issue-cards .ellipse-container {
+    right: -60px;
+  }
+  body .training-section {
+    padding-bottom: 50px;
+  }
+  .training-section .training-info-container {
+    padding-top: 80px;
+  }
+  .training-section .train-card-title {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 15px 0;
+  }
+  .training-section .train-card-para {
+    font-size: 15px;
+  }
+  .training-section .training-card img {
+    width: 40px;
+  }
+  .training-section .apply-btn {
+    padding: 17px 37px;
+    font-size: 18px;
+  }
+  .arc-section .section-para {
+    width: 100%;
+  }
+  .arc-section .arc-card {
+    padding: 30px;
+    margin-right: 0;
+    margin-top: 30px;
+  }
+  .arc-section .arc-card-title {
+    font-size: 22px;
+  }
+  body .team-section {
+    padding: 80px 0;
+  }
+  .team-section .info-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .team-section .info-container .mobile-img {
+    display: block;
+  }
+  .team-section .desktop-img {
+    display: none;
+  }
+  .team-section .meet-btn {
+    font-size: 18px;
+  }
+  .home-blog-section .info {
+    padding: 0px 20px;
+  }
+  .home-blog-section .info .readMore-btn {
+    bottom: 15px;
+  }
+  .home-blog-section .info-card .info-readMore-btn {
+    bottom: 25px;
+  }
+  .home-blog-section .blog-card .info .card-title {
+    font-size: 23px;
+  }
+  .home-blog-section .blog-card .card-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .need-help-section::before {
+    display: none;
+  }
+  .need-help-section .content {
+    flex-direction: column;
+  }
+  .need-help-section .info-sec,
+  .need-help-section .form-sec {
+    width: 100%;
+  }
+  .need-help-section .info-sec {
+    margin-top: 80px;
+  }
+  .need-help-section .info-sec .login-btn {
+    font-size: 18px;
+    padding: 15px 27px;
+  }
+  .need-help-section .form-sec form {
+    padding: 80px 0 80px 0;
+  }
+  .need-help-section .form-sec .heading {
+    margin-bottom: 40px;
+  }
+  .need-help-section .submit-btn {
+    padding: 15px 47px;
+    font-size: 18px;
+  }
+  .need-help-section .input-field {
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 640px) {
+  /* home-page */
+  .different-assessment-section .container {
+    padding: 0 50px;
+  }
+  .different-assessment-section .ass-cards-container {
+    margin: 30px 0;
+  }
+  .different-assessment-section .diff-asses-card {
+    padding: 30px 20px;
+  }
+  .ass-cards-container .ass-card-container:nth-child(3) .diff-asses-card {
+    margin-right: 0;
+  }
+  .ass-cards-container .ellipse-container {
+    display: none;
+  }
+  body .meet-doc-section {
+    padding: 100px 0;
+  }
+  .meet-doc-section .container {
+    padding: 0 40px;
+  }
+  .health-issues-section .header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .health-issues-section .heading {
+    margin-bottom: 30px;
+  }
+  .arc-section .container {
+    padding: 80px 40px;
+  }
+  .home-blog-section .container {
+    padding: 80px 40px;
+  }
 }
 @media all and (max-width: 480px) {
   .container {
     padding: 0 20px;
   }
   body .banner-section {
-    height: 450px;
     margin-bottom: 80px;
   }
   body .blog-section {
@@ -489,10 +1084,105 @@
     padding: 2rem 1rem;
     border: none;
   }
+
+  /* home-page */
+
+  .home-banner .h-banner-title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .home-banner .h-banner-para {
+    display: none;
+  }
+  .different-assessment-section .container {
+    padding: 0 20px;
+  }
+  .different-assessment-section .ass-cards-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .different-assessment-section .card-section {
+    width: 100%;
+  }
+  .different-assessment-section .diff-asses-card {
+    display: flex;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .different-assessment-section .diff-asses-card img {
+    margin-right: 40px;
+  }
+  .arc-section .arc-card-container {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+  .ass-bottom-section .list-card-container {
+    grid-template-columns: 1fr;
+  }
+  .ass-bottom-section .ass-list-card {
+    border-radius: 15px;
+    margin-right: 0;
+  }
+  .different-assessment-section .ass-bottom-section,
+  .different-assessment-section .ass-top-section {
+    margin-left: 0;
+  }
+  .meet-doc-section .doc-schedule-container .image-container {
+    width: 240px;
+  }
+  .meet-doc-section .doc-schedule-container .image-container {
+    margin-left: -50px;
+  }
+  .meet-doc-section .schedule-box {
+    width: 215px;
+    padding: 30px 20px;
+    border-radius: 15px;
+  }
+  .meet-doc-section .schedule-box .schedule {
+    margin-bottom: 20px;
+  }
+  .meet-doc-section .before-tick {
+    right: -15px;
+  }
+  .diff-health-issue-cards .ellipse-container {
+    display: none;
+  }
+  .training-section .training-card-container {
+    flex-direction: column;
+  }
+  .training-section .training-card {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .home-blog-section .blog-card .info-card {
+    height: 250px;
+  }
+  .home-blog-section .blog-card .info .card-title {
+    margin-top: 0;
+    padding-top: 30px;
+  }
+  .arc-section .arc-card {
+    margin: 0;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+
+    border-radius: 0px 20px 20px 20px;
+  }
+  .arc-section .arc-card-img {
+    margin: 0 0 0;
+    margin-right: 40px;
+  }
 }
 @media all and (max-width: 320px) {
-  body .banner-section {
-    height: 380px;
+  h2 {
+    font-size: 25px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .text {
+    font-size: 16px;
+    line-height: 26px;
   }
   .banner-section .info-container {
     margin-top: 30px;
@@ -512,5 +1202,84 @@
   }
   .FAQ-section .text {
     text-align: justify;
+  }
+  /* home-page */
+  .home-banner .h-banner-title {
+    font-size: 36px;
+    line-height: 39px;
+  }
+  .diff-asses-card .ass-card-title {
+    margin-top: 0;
+  }
+  .meet-doc-section .doc-schedule-container .image-container {
+    margin-left: 0;
+    width: 100%;
+  }
+  .meet-doc-section .before-tick {
+    position: static;
+    margin-top: 20px;
+  }
+  .meet-doc-section .schedule-box {
+    width: 100%;
+  }
+  .doc-info-container .heading {
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 10px;
+  }
+  .doc-info-container .sub-title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .doc-info-container .para {
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .doc-info-container .tick-list .tick-list-text {
+    font-size: 15px;
+  }
+  .doc-info-container .booking-btn {
+    padding: 18px 37px;
+  }
+  .arc-section .arc-card-title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .arc-section .arc-card-para,
+  .arc-section .arc-card:last-child .arc-card-para {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+  .arc-section .arc-card:last-child .arc-card-para {
+    margin-bottom: 30px;
+  }
+  .arc-section .arc-card:last-child .arc-card-title {
+    font-size: 18px;
+  }
+  .team-section .info-container .mobile-img {
+    width: 100%;
+  }
+  .home-blog-section .container {
+    padding: 80px 20px;
+  }
+  .home-blog-section .blog-card .info-card{
+    height: 300px;
+  }
+  .need-help-section .info-sec .text,
+  .need-help-section .info-sec .tick-list-text {
+    width: 100%;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1280px) {
+  .home-blog-section .blog-card {
+    display: flex;
+  }
+  .home-blog-section .card-margin {
+    margin-right: 35px;
+    margin-bottom: 0;
   }
 }

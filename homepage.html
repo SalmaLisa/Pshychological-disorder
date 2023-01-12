@@ -11,16 +11,16 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
-    />
-    <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+  />
   </head>
   <body>
     <header class="banner-section home-banner">
@@ -44,24 +44,25 @@
             <li class="nav-link-item">Book Appointment</li>
           </ul>
         </nav>
-        <div>
-          <div class="w-5 info-container">
-            <h1 class="banner-title home-banner-title margin-y-1">
-              Mission Is to Improve Mental Health
+        <div class="flex-box">
+          <div class="banner-left w-5">
+            <h1 class="h-banner-title">
+              Mission Is to <br />
+              Improve Mental Health
             </h1>
-            <p class="banner-text home-banner-text">
+            <p class="h-banner-para text w-7">
               Neurodiversity describes the idea that people experience and
               interact with the world around them in many different ways
             </p>
-            <div class="explore-btn flex-box align-center justify-center">
-              <button class="border-none">Explore</button>
-              <img src="images/right-arrow.png" alt="" />
+            <div class="flex-box justify-center"> 
+              <button class="explore-button flex-box align-center border-none">
+                <span>Explore </span>
+                <img src="images/right-arrow.png" alt="" />
+              </button>
             </div>
           </div>
-          <div class="assessment transform-text">
+          <div class="banner-right w-5 flex-box justify-between">
             <h4>Assessment</h4>
-          </div>
-          <div class="team transform-text">
             <h4>The Team</h4>
           </div>
         </div>
@@ -79,7 +80,7 @@
               in between. The connection between those experiences is you.
             </p>
           </div>
-          <div>
+          <div class="card-section">
             <ul
               class="flex-box justify-between ass-cards-container flex-box align-center"
             >
@@ -110,7 +111,7 @@
         </div>
         <div class="ass-bottom-section">
           <h3 class="sub-heading h-color sec-sub-title">Assessment</h3>
-          <div class="">
+          <div>
             <ul class="list-card-container grid-col-3">
               <li class="ass-list-card flex-box align-center justify-between">
                 <h4 class="list-card-title h-color">
@@ -118,7 +119,9 @@
                   Assessment
                 </h4>
                 <div>
-                  <img src="images/blue-arrow.png" alt="" />
+                  <a href="">
+                    <img src="images/blue-arrow.png" alt="" />
+                  </a>
                 </div>
               </li>
               <li class="ass-list-card flex-box align-center justify-between">
@@ -126,7 +129,9 @@
                   Neuropsychological Assessment
                 </h4>
                 <div>
+                 <a href="">
                   <img src="images/blue-arrow.png" alt="" />
+                 </a>
                 </div>
               </li>
               <li class="ass-list-card flex-box align-center justify-between">
@@ -135,7 +140,9 @@
                   Assessment
                 </h4>
                 <div>
-                  <img src="images/blue-arrow.png" alt="" />
+                  <a href="">
+                    <img src="images/blue-arrow.png" alt="" />
+                  </a>
                 </div>
               </li>
               <li class="ass-list-card flex-box align-center justify-between">
@@ -143,13 +150,17 @@
                   Learning Disabilities Assessment
                 </h4>
                 <div>
-                  <img src="images/blue-arrow.png" alt="" />
+                  <a href="">
+                    <img src="images/blue-arrow.png" alt="" />
+                  </a>
                 </div>
               </li>
               <li class="ass-list-card flex-box align-center justify-between">
                 <h4 class="list-card-title h-color">Early Intervention</h4>
                 <div>
-                  <img src="images/blue-arrow.png" alt="" />
+                  <a href="">
+                    <img src="images/blue-arrow.png" alt="" />
+                  </a>
                 </div>
               </li>
               <li class="ass-list-card flex-box align-center justify-between">
@@ -157,7 +168,7 @@
                   Adolescents <br />Assessment
                 </h4>
                 <div>
-                  <img src="images/blue-arrow.png" alt="" />
+                 <a href=""><img src="images/blue-arrow.png" alt="" /></a>
                 </div>
               </li>
             </ul>
@@ -166,7 +177,8 @@
       </div>
     </section>
     <section class="meet-doc-section flex-box align-center justify-center">
-      <div class="container flex-box justify-between">
+      <div class="container">
+       <div class="content flex-box justify-between">
         <div class="doc-schedule-container">
           <div class="image-container">
             <img src="images/psychologist.png" alt="" />
@@ -192,40 +204,45 @@
           </div>
         </div>
         <div class="doc-info-container">
-          <p class="small-text">Meet Doctor</p>
+         <div>
+           <p class="small-text">Meet Doctor</p>
           <h2 class="heading">Dr. Micholyn Gayoso</h2>
-          <h3 class="sub-heading sub-title">Psychologist, PsyD</h3>
+          <h3 class="sub-title">Psychologist, PsyD</h3>
           <p class="para">
             Dr. Gayoso is a licensed psychologist who earned her Doctorate in
             Clinical Psychology from the Texas School of Professional
             Psychology.
           </p>
+         </div>
           <div class="tick-list">
-            <div class="flex-box align-center">
-              <img src="images/tick.png" alt="" />
-              <p class="tick-list-text">
-                The Texas School of Professional Psychology
-              </p>
-            </div>
-            <div class="flex-box align-center">
-              <img src="images/tick.png" alt="" />
-              <p class="tick-list-text">Year Graduated: 2014</p>
-            </div>
-            <div class="flex-box align-center">
-              <img src="images/tick.png" alt="" />
-              <p class="tick-list-text">License No. and State: 37422 Texas</p>
-            </div>
-            <div class="flex-box align-center">
-              <img src="images/tick.png" alt="" />
-              <p class="tick-list-text">
-                Private practice, juvenile & adult correction
-              </p>
+            <div>
+              <div class="flex-box align-center">
+                <img src="images/tick.png" alt="" />
+                <p class="tick-list-text">
+                  The Texas School of Professional Psychology
+                </p>
+              </div>
+              <div class="flex-box align-center">
+                <img src="images/tick.png" alt="" />
+                <p class="tick-list-text">Year Graduated: 2014</p>
+              </div>
+              <div class="flex-box align-center">
+                <img src="images/tick.png" alt="" />
+                <p class="tick-list-text">License No. and State: 37422 Texas</p>
+              </div>
+              <div class="flex-box align-center">
+                <img src="images/tick.png" alt="" />
+                <p class="tick-list-text">
+                  Private practice, juvenile & adult correction
+                </p>
+              </div>
             </div>
           </div>
           <button class="booking-btn card-shape border-none">
             Book Appointment
           </button>
         </div>
+       </div>
       </div>
     </section>
     <section class="health-issues-section">
@@ -247,77 +264,93 @@
               <div class="card-img-container">
                 <img src="images/h-autism.png" alt="" />
               </div>
+             <div class="card-info">
               <h4 class="issue-card-title h-color">Autism</h4>
               <p class="issue-card-para">
                 Autism spectrum disorder (ASD) is a developmental disability
               </p>
+             </div>
             </li>
             <li class="health-issue-card">
               <div class="card-img-container">
                 <img src="images/adhd.png" alt="" />
               </div>
-              <h4 class="issue-card-title h-color">ADHD</h4>
+              <div class="card-info">
+                <h4 class="issue-card-title h-color">ADHD</h4>
               <p class="issue-card-para">
                 ADHD is one of the most common neurodevelopmental disorders of
                 childhood
               </p>
+              </div>
             </li>
             <li class="health-issue-card">
               <div class="card-img-container">
                 <img src="images/ptsd.png" alt="" />
               </div>
-              <h4 class="issue-card-title h-color">PTSD</h4>
+              <div class="card-info">
+                <h4 class="issue-card-title h-color">PTSD</h4>
               <p class="issue-card-para">
                 PTSD is a mental health condition that's triggered by a
                 terrifying event
               </p>
+              </div>
             </li>
             <li class="health-issue-card">
               <div class="card-img-container">
                 <img src="images/h-autism.png" alt="" />
               </div>
-              <h4 class="issue-card-title h-color">Anxiety Disorders</h4>
+              <div class="card-info">
+                <h4 class="issue-card-title h-color">Anxiety Disorders</h4>
               <p class="issue-card-para">
                 A mental health disorder characterised by feelings of worry,
                 anxiety
               </p>
+              </div>
             </li>
             <li class="health-issue-card">
               <div class="card-img-container">
                 <img src="images/developmental.png" alt="" />
               </div>
+             <div class="card-info">
               <h4 class="issue-card-title h-color">Developmental Disorders</h4>
               <p class="issue-card-para">
                 Developmental disabilities are a group of conditions
               </p>
+             </div>
             </li>
             <li class="health-issue-card">
               <div class="card-img-container">
                 <img src="images/disabilities.png" alt="" />
               </div>
+             <div class="card-info">
               <h4 class="issue-card-title h-color">Learning Disabilities</h4>
               <p class="issue-card-para">
                 A specific learning disability that affects a person's ability
               </p>
+             </div>
             </li>
             <li class="health-issue-card">
               <div class="card-img-container">
                 <img src="images/depressive.png" alt="" />
               </div>
+             <div class="card-info">
               <h4 class="issue-card-title h-color">Depressive Disorders</h4>
               <p class="issue-card-para">
                 A mental health disorder characterised by persistently
               </p>
+             </div>
             </li>
             <li class="health-issue-card">
               <div class="card-img-container">
                 <img src="images/personality.png" alt="" />
               </div>
-              <h4 class="issue-card-title h-color">Personality Disorders</h4>
+              <div class="card-info">
+                <h4 class="issue-card-title h-color">Personality Disorders</h4>
               <p class="issue-card-para">
                 A personality disorder is a type of mental disorder in which you
                 have a rigid
               </p>
+              </div>
             </li>
           </ul>
           <div class="ellipse-container flex-column">
@@ -332,7 +365,7 @@
       </div>
     </section>
     <section class="training-section">
-      <div class="flex-box">
+      <div class="container">
         <div class="training-info-container">
           <p class="header-small-text">We Provide</p>
           <h2 class="heading">Career & Training</h2>
@@ -372,13 +405,11 @@
           </ul>
           <button class="apply-btn card-shape border-none violet-bg">Apply Now</button>
         </div>
-        <div class="img-container">
-          <img src="images/training.png" alt="" />
-        </div>
       </div>
     </section>
     <section class="arc-section">
-      <div class="contain text-center">
+      <div class="container">
+       <div class=" text-center">
         <p class="header-small-text">Assessment</p>
         <h2 class="heading">Why ARC</h2>
         <p class="section-para text w-9">
@@ -391,44 +422,57 @@
             <div class="arc-card-img">
               <img src="images/physicians.png" alt="" />
             </div>
+           <div>
             <h4 class="arc-card-title h-color">Verified Physicians</h4>
             <p class="arc-card-para">Highly Verified</p>
+           </div>
           </li>
           <li class="arc-card sky-bg">
             <div class="arc-card-img">
               <img src="images/customer.png" alt="" />
             </div>
+           <div>
             <h4 class="arc-card-title h-color">Happy Customers</h4>
             <p class="arc-card-para">Get their treatments</p>
+           </div>
           </li>
           <li class="arc-card pink-bg">
             <div class="arc-card-img">
               <img src="images/feedback.png" alt="" />
             </div>
-            <h4 class="arc-card-title h-color">Positive Feedbacks</h4>
+            <div>
+              <h4 class="arc-card-title h-color">Positive Feedbacks</h4>
             <p class="arc-card-para">From Our Customers</p>
+            </div>
           </li>
           <li class="arc-card pink-bg">
             <div class="arc-card-img">
               <img src="images/trusted.png" alt="" />
             </div>
+           <div>
             <h4 class="arc-card-title h-color">Trusted Treatment</h4>
             <p class="arc-card-para">Highly Verified</p>
+           </div>
           </li>
           <li class="arc-card pink-bg">
             <div class="arc-card-img">
               <img src="images/service.png" alt="" />
             </div>
-            <h4 class="arc-card-title h-color">24/7 Services</h4>
+            <div>
+              <h4 class="arc-card-title h-color">24/7 Services</h4>
             <p class="arc-card-para">Get their treatments</p>
+            </div>
           </li>
           <li class="arc-card violet-bg">
+           <div>
             <p class="arc-card-para">
               The experience of Autism is not one thing. It is many things.
             </p>
             <h4 class="arc-card-title h-color">Contact Us +</h4>
+           </div>
           </li>
         </ul>
+       </div>
       </div>
     </section>
     <section class="team-section flex-box align-center justify-center">
@@ -437,6 +481,9 @@
           <div class="info-container">
             <p class="header-small-text">Staff</p>
             <h2 class="heading">Our Team</h2>
+            <div class="mobile-img">
+              <img src="images/team.png" alt="">
+            </div>
             <p class="text w-7">
               The experience of Autism is not one thing. It is many things. It’s
               dreams, talents, relationships, victories, hurdles, and everything
@@ -446,7 +493,7 @@
               Meet Our Team
             </button>
           </div>
-          <div>
+          <div class="desktop-img img-container">
             <img src="images/team.png" alt="" />
           </div>
         </div>
@@ -456,7 +503,7 @@
       <div class="container">
         <div class="section-header">
           <p class="header-small-text">Blog</p>
-          <h2 class="section-title h-color">From The Vault</h2>
+          <h2 class="heading h-color">From The Vault</h2>
         </div>
         <ul class="blog-card-container">
           <li class="blog-card">
@@ -515,62 +562,63 @@
       </div>
     </section>
     <section class="need-help-section">
-      <div class="flex-box">
-        <div class="info-sec">
-          <h2 class="heading">Already a member</h2>
-          <p class="text w-7">
-            Dr. Gayoso is a licensed psychologist who earned her Doctorate in
-            Clinical Psychology from the Texas School
-          </p>
-          <div class="tick-list">
-            <div class="flex-box align-center">
-              <img src="images/tick.png" alt="" />
-              <p class="tick-list-text">
-                The Texas School of Professional Psychology
-              </p>
+      <div class="container">
+        <div class="content flex-box">
+          <div class="info-sec">
+            <h2 class="heading">Already a member</h2>
+            <p class="text w-7">
+              Dr. Gayoso is a licensed psychologist who earned her Doctorate in
+              Clinical Psychology from the Texas School
+            </p>
+            <div class="tick-list-container">
+              <div class="tick-list">
+                <div class="flex-box align-center">
+                  <img src="images/tick.png" alt="" />
+                  <p class="tick-list-text">
+                    The Texas School of Professional Psychology
+                  </p>
+                </div>
+                <div class="flex-box align-center">
+                  <img src="images/tick.png" alt="" />
+                  <p class="tick-list-text">Year Graduated: 2014</p>
+                </div>
+                <div class="flex-box align-center">
+                  <img src="images/tick.png" alt="" />
+                  <p class="tick-list-text">License No. and State: 37422 Texas</p>
+                </div>
+                <div class="flex-box align-center">
+                  <img src="images/tick.png" alt="" />
+                  <p class="tick-list-text">
+                    Private practice, juvenile & adult correction
+                  </p>
+                </div>
+                <button class="login-btn card-shape violet-bg border-none">Login Now</button>
+              </div>
             </div>
-            <div class="flex-box align-center">
-              <img src="images/tick.png" alt="" />
-              <p class="tick-list-text">Year Graduated: 2014</p>
-            </div>
-            <div class="flex-box align-center">
-              <img src="images/tick.png" alt="" />
-              <p class="tick-list-text">License No. and State: 37422 Texas</p>
-            </div>
-            <div class="flex-box align-center">
-              <img src="images/tick.png" alt="" />
-              <p class="tick-list-text">
-                Private practice, juvenile & adult correction
-              </p>
-            </div>
-            <button class="login-btn card-shape violet-bg">Login Now</button>
           </div>
-        </div>
-        <div class="form-sec violet-bg flex-box">
-          <form class="">
-            <h2 class="heading">Need Help ?</h2>
-            <div class="input-field">
-              <label for="name">Your Name*</label><br />
-              <input type="text" id="name" name="name" /><br />
-            </div>
-            <div class="input-field">
-              <label for="email">Email Address*</label><br />
-              <input type="text" id="email" name="email" /><br />
-            </div>
-            <div class="input-field">
-              <label for="mobile">Mobile Number*</label><br />
-              <input type="text" id="mobile" name="mobile" /><br />
-            </div>
-            <div class="input-field message">
-              <label for="message">Your Message*</label><br />
-              <input type="text" id="message" name="message" /><br />
-            </div>
-            <div class="btn-container">
-              <button class="submit-btn card-shape border-none">Submit</button>
-            </div>
-          </form>
-          <div class="bg-img">
-            <img src="images/multi-ellipse.png" alt="" />
+          <div class="form-sec">
+            <form class="">
+              <h2 class="heading">Need Help ?</h2>
+              <div class="input-field">
+                <label for="name">Your Name</label><br />
+                <input type="text" id="name" name="name" /><br />
+              </div>
+              <div class="input-field">
+                <label for="email">Email</label><br />
+                <input type="text" id="email" name="email" /><br />
+              </div>
+              <div class="input-field">
+                <label for="mobile">Phone*</label><br />
+                <input type="text" id="mobile" name="mobile" /><br />
+              </div>
+              <div class="input-field message">
+                <label for="message">Your Message</label><br />
+                <textarea  cols="30" rows="2" type="text" id="message" name="message"></textarea>
+              </div>
+              <div class="btn-container">
+                <button class="submit-btn card-shape border-none">Submit</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
