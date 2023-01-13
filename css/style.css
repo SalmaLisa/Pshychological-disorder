@@ -523,13 +523,16 @@ h3 {
 .blog-card-container {
   display: flex;
 }
-.blog-card {
+ .blog-card {
   box-shadow: 0px 20px 60px #623a661a;
   border-radius: 20px;
   position: relative;
-  margin:0 20px;
   overflow: hidden;
 }
+.blog-section .blog-card:nth-child(2){
+  margin: 0 30px;
+}
+
 .slick-slide{
   margin:0 15px;
 }
@@ -551,12 +554,15 @@ h3 {
   color: #696969;
   font-weight: 300;
   line-height: 30px;
-  margin-bottom: 65px;
+  padding-bottom: 65px;
+}
+.blog-section .blog-card .info{
+  padding: 0 30px 30px 30px ;
 }
 
 .readMore-btn {
   position: absolute;
-  bottom: 40px;
+  bottom: 22px;
   font-weight: 700;
   color: #954c9d;
   display: inline-block;
@@ -759,8 +765,8 @@ body .meet-doc-section {
 }
 .meet-doc-section .before-tick {
   position: absolute;
- top: 280px;
-  right: 0;
+ top: 340px;
+  right:-15px;
 }
 .meet-doc-section .before-tick::before {
   content:url(../images/white-tick.png) ;
@@ -1027,7 +1033,7 @@ body .team-section {
 
 /* home-blog-section */
 .home-blog-section .container {
-  padding: 170px 35px;
+  padding: 170px 0;
 }
 .home-blog-section .section-header {
   margin-bottom: 50px;

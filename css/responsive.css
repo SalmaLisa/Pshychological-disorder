@@ -172,10 +172,7 @@
   .blog-section .date {
     margin-bottom: 30px;
   }
-  .blog-card .readMore-btn {
-    margin-top: 60px;
-    margin-bottom: 15px;
-  }
+
   footer .footer-block {
     padding: 0 30px;
   }
@@ -194,7 +191,6 @@
     line-height: 70px;
   }
   body .home-banner {
-    background-size: 100% 100%;
     padding-bottom: 90px;
   }
   .home-banner .banner-left {
@@ -325,7 +321,7 @@
   .training-section .training-card {
     width: 28%;
   }
-  .blog-card-container {
+  .home-blog-section .blog-card-container {
     flex-direction: column;
   }
   .home-blog-section .blog-card {
@@ -353,8 +349,8 @@
     width: 100%;
   }
   .meet-doc-section .before-tick {
-    top: 185px;
-    right: -33px;
+    top: 283px;
+    right: -44px;
   }
   .health-issues-section .issue-card-container {
     grid-template-columns: repeat(2, 1fr);
@@ -455,13 +451,11 @@
   .meet-doc-section .doc-schedule-container {
     width: 100%;
   }
-
+  .meet-doc-section .before-tick {
+    top: 30px;
+  }
   .meet-doc-section .doc-schedule-container .image-container {
     width: 500px;
-  }
-  .meet-doc-section .before-tick {
-    top: -40px;
-    right: 10px;
   }
   .meet-doc-section .doc-info-container {
     width: 100%;
@@ -632,6 +626,9 @@
   body .different-assessment-section {
     margin-bottom: 100px;
   }
+  .meet-doc-section .doc-schedule-container .image-container {
+    margin-left: -62px;
+  }
   .meet-doc-section .before-tick {
     right: -22px;
   }
@@ -725,11 +722,6 @@
   .blog-section .blog-card-container {
     margin: 0px;
   }
-
-  .blog-card .readMore-btn {
-    margin-top: 40px;
-    margin-bottom: 10px;
-  }
   footer .footer-block a {
     font-size: 12px;
   }
@@ -738,7 +730,7 @@
   }
   /* home-page */
   body .home-banner {
-    padding-bottom: 80px;
+    padding-bottom: 120px;
   }
   .home-banner .h-banner-title {
     font-size: 50px;
@@ -782,7 +774,8 @@
     line-height: 24px;
   }
   .meet-doc-section .doc-schedule-container .image-container {
-    width: 300px;
+    width: 310px;
+    margin-left: 0;
   }
   .meet-doc-section .schedule-box {
     width: 230px;
@@ -1267,7 +1260,7 @@
   .home-blog-section .container {
     padding: 80px 20px;
   }
-  .home-blog-section .blog-card .info-card{
+  .home-blog-section .blog-card .info-card {
     height: 300px;
   }
   .need-help-section .info-sec .text,
