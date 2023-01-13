@@ -191,6 +191,10 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 .grid-col-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -372,11 +376,15 @@ nav {
   height: 97px;
   margin-right: 28px;
 }
-
+h1 {
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 105px;
+}
 h2 {
   font-size: 60px;
   line-height: 70px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .text {
   font-size: 22px;
@@ -388,7 +396,7 @@ h3 {
   font-size: 42px;
   line-height: 53px;
   margin-top: 30px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .detail-list-container {
@@ -467,7 +475,8 @@ h3 {
   font-size: 18px;
   line-height: 12px;
 }
-.input-field input,.input-field textarea {
+.input-field input,
+.input-field textarea {
   background: transparent;
   border: none;
   width: 100%;
@@ -475,7 +484,8 @@ h3 {
   font-size: 18px;
   color: #ffffff;
 }
-.input-field input:focus,.input-field textarea:focus{
+.input-field input:focus,
+.input-field textarea:focus {
   outline: none;
 }
 .submit-btn {
@@ -523,18 +533,18 @@ h3 {
 .blog-card-container {
   display: flex;
 }
- .blog-card {
+.blog-card {
   box-shadow: 0px 20px 60px #623a661a;
   border-radius: 20px;
   position: relative;
   overflow: hidden;
 }
-.blog-section .blog-card:nth-child(2){
+.blog-section .blog-card:nth-child(2) {
   margin: 0 30px;
 }
 
-.slick-slide{
-  margin:0 15px;
+.slick-slide {
+  margin: 0 15px;
 }
 .blog-card img {
   width: 100%;
@@ -556,8 +566,8 @@ h3 {
   line-height: 30px;
   padding-bottom: 65px;
 }
-.blog-section .blog-card .info{
-  padding: 0 30px 30px 30px ;
+.blog-section .blog-card .info {
+  padding: 0 30px 30px 30px;
 }
 
 .readMore-btn {
@@ -627,7 +637,7 @@ body .home-banner {
   color: #ffffff;
   padding-bottom: 300px;
 }
-.home-banner .banner-left{
+.home-banner .banner-left {
   margin-top: 200px;
 }
 .home-banner .h-banner-title {
@@ -668,7 +678,6 @@ body .home-banner {
 .home-banner .banner-right h4:nth-child(2) {
   margin-right: 100px;
 }
-
 
 /* ------------------- */
 .pink-bg {
@@ -726,7 +735,6 @@ body .different-assessment-section {
 }
 .ass-bottom-section .sec-sub-title {
   margin-bottom: 36px;
-  
 }
 .ass-bottom-section .ass-list-card {
   padding: 40px;
@@ -765,11 +773,11 @@ body .meet-doc-section {
 }
 .meet-doc-section .before-tick {
   position: absolute;
- top: 340px;
-  right:-15px;
+  top: 340px;
+  right: -15px;
 }
 .meet-doc-section .before-tick::before {
-  content:url(../images/white-tick.png) ;
+  content: url(../images/white-tick.png);
   display: block;
   position: absolute;
   top: -30px;
@@ -891,15 +899,15 @@ body .health-issues-section {
   height: 100%;
 }
 /* training-section */
-.training-section{
+.training-section {
   background: url(../images/pink-bg.png) no-repeat top;
   background-size: cover;
   position: relative;
   padding-bottom: 180px;
 }
 
-.training-section::after{
-  content: '';
+.training-section::after {
+  content: "";
   display: block;
   width: 50%;
   height: 100%;
@@ -1015,8 +1023,8 @@ body .team-section {
   margin: 0 auto;
   display: none;
 }
-.team-section .info-container .mobile-img img{
- width: 100%;
+.team-section .info-container .mobile-img img {
+  width: 100%;
 }
 
 .team-section .info-container .text {
@@ -1058,7 +1066,6 @@ body .team-section {
   box-shadow: 0px 20px 60px #623a661a;
   border-radius: 20px;
   position: relative;
-
 }
 .home-blog-section .info-card .info-readMore-btn {
   position: absolute;
@@ -1079,17 +1086,17 @@ body .need-help-section {
   position: relative;
   overflow-y: hidden;
 }
-.need-help-section::before{
-  content: '';
+.need-help-section::before {
+  content: "";
   display: inline-block;
   width: 50%;
   height: 100%;
   background-image: url(../images/need-help-bg.png);
-   position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
 }
-.need-help-section .info-sec{
+.need-help-section .info-sec {
   z-index: 1;
   margin-top: 360px;
   width: 50%;
@@ -1141,13 +1148,14 @@ body .need-help-section {
   line-height: 12px;
   color: #ffffff;
 }
-.need-help-section .input-field.message {  
+.need-help-section .input-field.message {
   margin-bottom: 70px;
 }
-.need-help-section .input-field textarea:focus{
+.need-help-section .input-field textarea:focus {
   outline: none;
 }
-.need-help-section .input-field input, .need-help-section .input-field textarea {
+.need-help-section .input-field input,
+.need-help-section .input-field textarea {
   background: transparent;
   border: none;
   width: 100%;
@@ -1168,4 +1176,186 @@ body .need-help-section {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+/* ============= team-list-page ========== */
+.tl-banner-section {
+  background: url(../images/team-list/team-list-banner.png) no-repeat top;
+}
+.tl-banner-section .tiny-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 55px;
+  display: inline-block;
+}
+.tl-banner-section .tiny-text .colored {
+  color: #adadad;
+}
+/* team-list-page-team-section */
+
+.tl-team-section .content {
+  padding: 0 90px;
+}
+.tl-team-section .title-box {
+  margin-bottom: 40px;
+}
+.tl-team-section .list-item {
+  border-radius: 20px;
+  margin: 35px;
+  box-shadow: 0px 5px 53px #dfdfdf;
+}
+.tl-team-section .list-item .img-container {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.tl-team-section .list-item .img-container img {
+  width: 100%;
+}
+.tl-team-section .work-sector {
+  margin-bottom: 40px;
+}
+.tl-team-section .work-sector li {
+  padding: 10px 35px;
+  border: 1px solid #3dc3f2;
+  border-radius: 50px;
+}
+.tl-team-section .item-info {
+  padding: 50px;
+}
+.tl-team-section .item-title {
+  font-size: 38px;
+}
+.tl-team-section .explore-btn {
+  padding: 21px 39px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+  border-radius: 16px;
+  margin: 32px 0;
+}
+/* tl-contact-us-section */
+.contact-section {
+  background: url(../images/team-list/contact-us.png) no-repeat center;
+  color: #ffffff;
+  padding: 68px 200px;
+  margin-top: 180px;
+}
+.contact-section .title-box .para {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  margin-top: 25px;
+}
+.contact-section .btn-container .contact-btn {
+  padding: 27px 66px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  border-radius: 20px;
+  color: #954c9d;
+}
+
+/* ============== team-detail-page ================ */
+.extra-padding{
+  padding: 0 100px;
+}
+.t-detail-banner .content{
+  margin: 50px 0 130px ;
+  padding-left: 85px;
+}
+.t-detail-banner .content .banner-title{
+margin: 40px 0;
+}
+.t-detail-banner .content  .banner-para{
+font-style: italic;
+font-weight: 600;
+font-size: 42px;
+line-height: 58px;
+color: #6D6D6D;
+padding-left: 20px;
+border-left: 6px solid #954C9D;
+}
+/* t-detail-section */
+.t-detail-section .top-btns a{
+  font-weight: 600;
+font-size: 26px;
+line-height: 19px;
+color: #1E1E1E;
+padding: 25px 59px;
+border: 2px solid #3DC3F2;
+border-radius: 48px;
+margin: 0 15px;
+}
+.t-detail-section .top-btns a:nth-child(2){
+  background-color: #3DC3F2;
+  color: #fff;
+  box-shadow: 0px 24px 50px #3dc3f24d;
+}
+.t-detail-section .top-btns a img{
+  margin-right: 16px;
+} 
+.t-detail-section .top-btns hr{
+  border-bottom: 1px solid red;
+}
+.t-detail-section .td-about-sec{
+  margin-top: 133px;
+  margin-bottom: 140px;
+}
+.t-detail-section .td-about-sec h2{
+  margin-bottom: 40px;
+}
+.t-detail-section .td-about-sec p{
+  text-align: justify;
+}
+/* expertise-section */
+.expertise-section .content{
+  padding: 183px 0;
+}
+.expertise-section .td-card-container{
+  margin-top: 84px;
+}
+.expertise-section .td-card{
+  padding: 52px 38px;
+  background-color: #fff;
+  border-radius: 16px;
+  text-align: center;
+  margin-right: 50px;
+}
+.expertise-section .td-card:nth-child(4){
+  margin-right: 0;
+}
+.expertise-section .td-card:nth-child(2){
+  background-color: #954C9D;
+  color: #ffffff;
+}
+
+.expertise-section .td-card img{
+  width: 50px;
+  height: 60px;
+  object-fit: scale-down;
+}
+.expertise-section .td-card h4{
+  font-weight: 600;
+font-size: 26px;
+line-height: 38px;
+margin-top: 25px;
+margin-bottom: 15px;
+}
+.expertise-section .td-card p{
+  font-weight: 300;
+font-size: 17px;
+line-height: 22px;
+color: #696969;
+}
+.expertise-section .td-card:nth-child(2) p{
+  color: #ffffff;
+}
+/* td-form-section */
+.td-form-section{
+  background: url(../images/team-detail/td-form-bg.png) no-repeat center;
+  color: #ffffff;
+}
+.td-form-section .content{
+  padding: 150px 0;
 }
